@@ -1,27 +1,15 @@
-# YournewsPwa
+# [WIP] yournews-pwa
+A progressive web app built with Angular to keep you up to date with your favourite topics
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
+<p align="center">
 
-## Development server
+[![Angular 6](https://img.shields.io/badge/Angular-6.0.3-brightgreen.svg)](https://vuejs.org/)
+[![TypeScript 2.7](https://img.shields.io/badge/TypeScript-2.7-brightgreen.svg)](https://vuejs.org/)
+[![Netlify](https://img.shields.io/badge/deployed%20on-Netlify-brightgreen.svg)](https://gracious-volhard-ecc0f0.netlify.com/)
+<!--[![Vue Material](https://img.shields.io/badge/Vue%20Material-1.0.0%20beta-brightgreen.svg)](https://vuejs.org/)-->
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+</p>
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Remarks
+- Developed primarily for learning purposes
+- [Check out my similar web app built with Vue.js](https://github.com/sebbrn/yournews/)
