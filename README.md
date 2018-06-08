@@ -15,6 +15,6 @@ Septure helps you to keep track of all the series you've ever watched. Just like
 
 ## Features
 
-- [ ] View all of the series with their seasons and episodes you've watched
+- [ ] Overview of all the series you've watched including their seasons and episodes
 - [ ] Easily add seasons and episodes to your *watched* list with autocompleted searching
 - [ ] Reminds you when a new season of your series is going to be aired
