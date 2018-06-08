@@ -1,8 +1,10 @@
+<img align="right" width="180" src="./src/assets/septure.svg" alt="Logo">
+
 # [WIP] Septure
 A progressive web app built with Angular to capture your progress of watched series
 
 <p align="center">
-
+  
 [![Angular 6](https://img.shields.io/badge/Angular-6.0.3-brightgreen.svg)](https://vuejs.org/)
 [![TypeScript 2.7](https://img.shields.io/badge/TypeScript-2.7-brightgreen.svg)](https://vuejs.org/)
 <!--[![Netlify](https://img.shields.io/badge/deployed%20on-Netlify-brightgreen.svg)](https://gracious-volhard-ecc0f0.netlify.com/)-->
