@@ -49,7 +49,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/scripts/animate-in.js",
+              "src/assets/scripts/smooth-scroll.js"
+            ]
           },
           "configurations": {
             "production": {
