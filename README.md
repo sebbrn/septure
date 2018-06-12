@@ -1,4 +1,4 @@
-<img align="right" width="180" src="./src/assets/septure.svg" alt="Logo">
+<a href="https://septure.netlify.com"><img align="right" width="180" src="./src/assets/septure.svg" alt="Logo"></a>
 
 # [WIP] Septure
 A progressive web app built with Angular to capture your progress of watched series
