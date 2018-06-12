@@ -1,21 +1,85 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<!-- header page -->
+<div class="align-items-center py-5 cover section-fade-in-out d-flex shadowed"
+     style="background: url('../assets/images/elegantcamo/bonus3.png');">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-5">
+        <h1 class="display-4">SEPTURE</h1>
+        <a href="#about" class="btn btn-lg mt-4 btn-primary shadowed">what is septure?</a>
+      </div>
+    </div>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-- about -->
+<div class="py-5 bg-dark"
+     style="background-image: url('../assets/images/elegantcamo/elements lines.png');background-size:cover;background-position: center" id="about">
+  <div class="container p-4 my-5">
+    <div class="row">
+      <div class="col-12">
+        <p class="lead">Septure helps you to keep track of all the series you've ever watched. Just like the title of
+          the app suggests, it captures your series. With Septure you'll never lose track of those awesome series you've
+          watched but probably would forget about
+          without this app.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Features -->
+<div class="py-5 align-items-center align-self-center section-fade-in-out shadowed"
+     style="background-image: url('../assets/images/elegantcamo/bonus3.png');">
+  <div class="container justify-content-center">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="">Features</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 align-self-center text-center p-4">
+        <i class="d-block  fa fa-5x fa-eye"></i>
+        <h3 class="my-2">OVERVIEW</h3>
+        <p class="">Overview of all the series you've watched including their seasons and episodes</p>
+      </div>
+      <div class="col-md-4 align-self-center text-center p-4">
+        <i class="d-block  fa fa-5x fa-plus-square-o"></i>
+        <h3 class="my-2">ADD</h3>
+        <p class="">Easily add seasons and episodes to your watched list with autocompleted searching</p>
+      </div>
+      <div class="col-md-4 align-self-center text-center p-4">
+        <i class="d-block  fa fa-5x fa-bell-o"></i>
+        <h3 class="my-2">Heading</h3>
+        <p class="">Reminds you when a new season of your series is going to be aired</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="text-md-left text-center p-4">
+  <div class="container">
+    <div class="row text-left">
+      <div class="my-3 col-lg-4 col-md-6">
+        <h3>SEPTURE</h3>
+        <p class="text-muted">Work in progress</p>
+        <p class="text-muted">Developed primarily for learning purposes</p>
+      </div>
+      <div class="my-3  offset-md-5 col-lg-3">
+        <h3 class="ml-2">Contact</h3>
+        <a href="mailto:s.brun@gmx.de">
+          <i class="fa fa-3x text-muted m-2 fa-envelope-o"></i>
+        </a>
+        <a href="https://github.com/sebbrn/" target="blank">
+          <i class="fa fa-3x text-muted m-2 fa-github"></i>
+        </a>
+        <a href="https://github.com/sebbrn/septure" target="blank">
+          <i class="fa fa-3x text-muted m-2 fa-file-text-o"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-muted">© Copyright 2018 Sebastian Brune</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 <router-outlet></router-outlet>
