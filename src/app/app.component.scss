@@ -1,0 +1,13 @@
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  background-color: rgba(0, 153, 104, 0.9);
+  border-radius: 3px;
+  padding: 20px 5px;
+  border: 1px rgba(255, 255, 255, 0.8) solid;
+}
