@@ -50,8 +50,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "src/assets/scripts/animate-in.js",
-              "src/assets/scripts/smooth-scroll.js"
+              "src/assets/scripts/animate-in.js"
             ]
           },
           "configurations": {
