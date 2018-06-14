@@ -2,6 +2,20 @@
   z-index: 6;
 }
 
+.zoom {
+  transition: transform .1s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.btn:hover {
+  background: #009968;
+}
+
 .parallax {
   background-attachment: fixed;
   background-position: center;
